@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dbe5ec;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.container {
+    background: white;
+    width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+    hover: #2f80ed;
+    text-align: center;
+    color: #565c64;
+}
+
+.filters for class
+
+h1 {                    for directly styling the heading element
+    text-align: center;
+    color: #2f80ed;
+}
+
+#p1 {                    for directly styling the paragraph element with id "p1"
+    color: #e74c3c;
+    font-size: 18px;
+}
+
+#box1{              use margin to center the box and add spacing around it
+    padding: ;      use padding to create space inside the box
+    margin: 20px auto;
+    float:left;     use float to align the box to the left/right
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border: 2px solid #2f80ed;
+    border-radius: 6px;
+}
+
+#addBtn {
+    background: #2f80ed;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.filters {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+.filter-btn {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.filter-btn:hover {
+    background: #2f80ed;
+    color: white;
+    transform: translateY(-2px);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px dotted #ccc;
+    gap: 8px;
+}
+
+.tick-icon {
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 20px;
+    text-align: center;
+}
+
+.tick-icon.show {
+    opacity: 1;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.remove-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}

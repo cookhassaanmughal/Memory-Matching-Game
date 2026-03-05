@@ -1,0 +1,89 @@
+/* Basic Reset */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: #1e1e2f;
+    color: white;
+}
+
+/* Title */
+h1 {
+    margin-top: 30px;
+    font-size: 32px;
+    color: #f5b041;
+}
+
+/* Controls Section */
+.controls {
+    margin: 20px;
+}
+
+/* Restart Button */
+#restart {
+    padding: 8px 18px;
+    font-size: 14px;
+    background-color: #f5b041;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#restart:hover {
+    background-color: #d68910;
+}
+
+/* Moves Text */
+#moves {
+    font-weight: bold;
+    color: #58d68d;
+}
+
+/* Game Board */
+.gameBoard {
+    width: 460px;
+    margin: 30px auto;
+    padding: 15px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 15px;
+
+    background-color: #2e2e48;
+    border-radius: 10px;
+}
+
+/* Cards */
+.card {
+    width: 100px;
+    height: 100px;
+
+    background-color: #5dade2;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.card:hover {
+    background-color: #3498db;
+}
+
+/* Flipped Card */
+.card.flipped {
+    background-color: #884ea0;
+    color: white;
+}
+
+/* Matched Card */
+.card.matched {
+    background-color: #27ae60;
+    cursor: default;
+}
